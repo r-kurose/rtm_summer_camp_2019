@@ -1,0 +1,54 @@
+# division CMake config file
+#
+# This file sets the following variables:
+# division_FOUND - Always TRUE.
+# division_INCLUDE_DIRS - Directories containing the division include files.
+# division_IDL_DIRS - Directories containing the division IDL files.
+# division_LIBRARIES - Libraries needed to use division.
+# division_DEFINITIONS - Compiler flags for division.
+# division_VERSION - The version of division found.
+# division_VERSION_MAJOR - The major version of division found.
+# division_VERSION_MINOR - The minor version of division found.
+# division_VERSION_REVISION - The revision version of division found.
+# division_VERSION_CANDIDATE - The candidate version of division found.
+
+message(STATUS "Found division-@PROJECT_VERSION@")
+set(division_FOUND TRUE)
+
+find_package(<dependency> REQUIRED)
+
+#set(division_INCLUDE_DIRS
+#    "@CMAKE_INSTALL_PREFIX@/include/@PROJECT_NAME_LOWER@-@PROJECT_VERSION_MAJOR@"
+#    ${<dependency>_INCLUDE_DIRS}
+#    )
+#
+#set(division_IDL_DIRS
+#    "@CMAKE_INSTALL_PREFIX@/include/@PROJECT_NAME_LOWER@-@PROJECT_VERSION_MAJOR@/idl")
+set(division_INCLUDE_DIRS
+    "@CMAKE_INSTALL_PREFIX@/include/@CPACK_PACKAGE_FILE_NAME@"
+    ${<dependency>_INCLUDE_DIRS}
+    )
+set(division_IDL_DIRS
+    "@CMAKE_INSTALL_PREFIX@/include/@CPACK_PACKAGE_FILE_NAME@/idl")
+
+
+if(WIN32)
+    set(division_LIBRARIES
+        "@CMAKE_INSTALL_PREFIX@/@LIB_INSTALL_DIR@/@CMAKE_SHARED_LIBRARY_PREFIX@@PROJECT_NAME_LOWER@@CMAKE_STATIC_LIBRARY_SUFFIX@"
+        ${<dependency>_LIBRARIES}
+        )
+else(WIN32)
+    set(division_LIBRARIES
+        "@CMAKE_INSTALL_PREFIX@/@LIB_INSTALL_DIR@/@CMAKE_SHARED_LIBRARY_PREFIX@@PROJECT_NAME_LOWER@@CMAKE_SHARED_LIBRARY_SUFFIX@"
+        ${<dependency>_LIBRARIES}
+        )
+endif(WIN32)
+
+set(division_DEFINITIONS ${<dependency>_DEFINITIONS})
+
+set(division_VERSION @PROJECT_VERSION@)
+set(division_VERSION_MAJOR @PROJECT_VERSION_MAJOR@)
+set(division_VERSION_MINOR @PROJECT_VERSION_MINOR@)
+set(division_VERSION_REVISION @PROJECT_VERSION_REVISION@)
+set(division_VERSION_CANDIDATE @PROJECT_VERSION_CANDIDATE@)
+

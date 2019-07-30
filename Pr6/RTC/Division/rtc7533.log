@@ -1,0 +1,67 @@
+2019-07-30 09:53:06,153 file.manager INFO 1.2.0
+2019-07-30 09:53:06,153 file.manager INFO Copyright (C) 2003-2010
+2019-07-30 09:53:06,153 file.manager INFO   Noriaki Ando
+2019-07-30 09:53:06,153 file.manager INFO   Intelligent Systems Research Institute, AIST
+2019-07-30 09:53:06,153 file.manager INFO Manager starting.
+2019-07-30 09:53:06,153 file.manager INFO Starting local logging.
+2019-07-30 09:53:06,154 file.manager.namingmanager INFO NameServer connection succeeded: corba/localhost
+2019-07-30 09:53:06,157 file.ManagerServant INFO Master manager not found
+2019-07-30 09:53:06,158 file.LocalServiceAdmin INFO All the local services are enabled.
+2019-07-30 09:53:06,160 file.manager INFO Component type conf file: division.conf loaded.
+2019-07-30 09:53:06,162 file.ec_base INFO setRate(1000000.000000) done
+2019-07-30 09:53:06,162 file.ec_base INFO setRate(1000.000000) done
+2019-07-30 09:53:06,162 file.rtobject INFO 1 execution context was created.
+2019-07-30 09:53:06,164 file.rtobject INFO Initial active configuration set is default-set.
+2019-07-30 09:53:16,225 file.ManagerServant INFO Master manager not found
+2019-07-30 09:53:17,079 file.SdoServiceAdmin WARNING No available SDO service in the factory: 
+2019-07-30 09:53:17,079 file.SdoServiceAdmin ERROR type  already exists.
+2019-07-30 09:53:26,291 file.ManagerServant INFO Master manager not found
+2019-07-30 09:53:36,372 file.ManagerServant INFO Master manager not found
+2019-07-30 09:53:46,446 file.ManagerServant INFO Master manager not found
+2019-07-30 09:53:56,521 file.ManagerServant INFO Master manager not found
+2019-07-30 09:54:06,586 file.ManagerServant INFO Master manager not found
+2019-07-30 09:54:16,660 file.ManagerServant INFO Master manager not found
+2019-07-30 09:54:26,725 file.ManagerServant INFO Master manager not found
+2019-07-30 09:54:36,782 file.ManagerServant INFO Master manager not found
+2019-07-30 09:54:46,855 file.ManagerServant INFO Master manager not found
+2019-07-30 09:54:56,926 file.ManagerServant INFO Master manager not found
+2019-07-30 09:55:06,994 file.ManagerServant INFO Master manager not found
+2019-07-30 09:55:17,070 file.ManagerServant INFO Master manager not found
+2019-07-30 09:55:27,155 file.ManagerServant INFO Master manager not found
+2019-07-30 09:55:37,247 file.ManagerServant INFO Master manager not found
+2019-07-30 09:55:47,322 file.ManagerServant INFO Master manager not found
+2019-07-30 09:55:57,399 file.ManagerServant INFO Master manager not found
+2019-07-30 09:56:07,498 file.ManagerServant INFO Master manager not found
+2019-07-30 09:56:17,597 file.ManagerServant INFO Master manager not found
+2019-07-30 09:56:27,691 file.ManagerServant INFO Master manager not found
+2019-07-30 09:56:37,783 file.ManagerServant INFO Master manager not found
+2019-07-30 09:56:47,871 file.ManagerServant INFO Master manager not found
+2019-07-30 09:56:57,913 file.ManagerServant INFO Master manager not found
+2019-07-30 09:57:01,936 file.number WARNING buffer empty
+2019-07-30 09:57:07,955 file.ManagerServant INFO Master manager not found
+2019-07-30 09:57:16,920 file.denom WARNING buffer empty
+2019-07-30 09:57:18,001 file.ManagerServant INFO Master manager not found
+2019-07-30 09:57:28,047 file.ManagerServant INFO Master manager not found
+2019-07-30 09:57:38,094 file.ManagerServant INFO Master manager not found
+2019-07-30 09:57:48,138 file.ManagerServant INFO Master manager not found
+2019-07-30 09:57:58,183 file.ManagerServant INFO Master manager not found
+2019-07-30 09:58:08,228 file.ManagerServant INFO Master manager not found
+2019-07-30 09:58:18,274 file.ManagerServant INFO Master manager not found
+2019-07-30 09:58:28,317 file.ManagerServant INFO Master manager not found
+2019-07-30 09:58:38,354 file.ManagerServant INFO Master manager not found
+2019-07-30 09:58:48,407 file.ManagerServant INFO Master manager not found
+2019-07-30 09:58:58,495 file.ManagerServant INFO Master manager not found
+2019-07-30 09:59:08,588 file.ManagerServant INFO Master manager not found
+2019-07-30 09:59:18,677 file.ManagerServant INFO Master manager not found
+2019-07-30 09:59:28,751 file.ManagerServant INFO Master manager not found
+2019-07-30 09:59:38,827 file.ManagerServant INFO Master manager not found
+2019-07-30 09:59:48,913 file.ManagerServant INFO Master manager not found
+2019-07-30 09:59:59,008 file.ManagerServant INFO Master manager not found
+2019-07-30 10:00:09,100 file.ManagerServant INFO Master manager not found
+2019-07-30 10:00:19,179 file.ManagerServant INFO Master manager not found
+2019-07-30 10:00:29,272 file.ManagerServant INFO Master manager not found
+2019-07-30 10:00:39,377 file.ManagerServant INFO Master manager not found
+2019-07-30 10:00:49,457 file.ManagerServant INFO Master manager not found
+2019-07-30 10:00:59,659 file.ec_worker ERROR State of the RTC is not ACTIVE_STATE.
+2019-07-30 10:00:59,662 file.ec_worker WARNING ExecutionContext is already stopped.
+2019-07-30 10:00:59,662 file.ec_base ERROR Invoking on_shutdown() for each RTC failed.

@@ -1,0 +1,12 @@
+* Python をインストール
+  https://www.python.org/downloads/
+* OpenRTM-aist のインストール
+  rtshell を選択してインストールる or 完全インストールする
+* 上記で駄目だった場合、
+** easy_setup のインストール
+   https://bootstrap.pypa.io/ez_setup.py をダウンロード
+   $ python ez_setup.py
+** rtshell のインストール
+   $ pip install rtshell-aist
+   ここでコマンドに失敗した場合、pip にパスが通っていない。
+   自分で python の中の Scripts など pip.exe にパスを通すこと。
